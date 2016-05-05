@@ -1,0 +1,10 @@
+{
+  "name" : "RoyalRoad-Bot",
+  "version": "0.0.1",
+  "description": "A discord RPG bot",
+  "main": "app.js",
+  "author": "Weed0395",
+  "dependencies": {
+    "discord.js": "^0.8.2",
+  }
+}
