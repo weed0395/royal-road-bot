@@ -1,0 +1,237 @@
+{
+    "1": {
+        "name": "Health Potion",
+        "desc": "A potion to restore health.",
+        "type": "Potion",
+        "durability": [
+            54,
+            54
+        ],
+        "stats": {
+            "hp": 50
+        },
+        "restrictions": {
+            "level": -1,
+            "none" : "true"
+        },
+        "effects": [
+            "Drinking it will restore health by 50.",
+            "Can only be used once."
+        ],
+        "copper": 10,
+        "buyable": "true"
+    },
+    "2": {
+        "name": "Barley Bread",
+        "desc": "Bread made from flour of the grain of the barley plant. Beginner's item.",
+        "type": "Food",
+        "durability": [
+            1,
+            1
+        ],
+        "stats": {
+            "hp": 1,
+            "stats": {
+                "VIT": 1
+            }
+        },
+        "restrictions": {
+            "level": -1,
+            "none" : "true"
+        },
+        "effects": [
+            "Eating it will restore health and vitality by 1.",
+            "Satisfies hunger."
+        ],
+        "copper": 1,
+        "buyable": "true"
+    },
+    "3": {
+        "name": "Wooden Sword",
+        "desc": "Given to those who join the Basic Training Program.",
+        "type": "Weapon",
+        "durability": [
+            54,
+            54
+        ],
+        "damage": {
+            "min": 1,
+            "max": 3
+        },
+        "stats": {},
+        "restrictions": {
+            "level": -1,
+            "none" : "true"
+        },
+        "effects": [
+            "None."
+        ]
+    },
+    "4": {
+        "name": "Hard Iron Sword",
+        "desc": "Awarded to those who completed the Basic Training Program. This widely-used long sword is better than basic type weapons that are available in a blacksmith’s workshop.",
+        "type": "Weapon",
+        "durability": [
+            54,
+            54
+        ],
+        "damage": {
+            "min": 10,
+            "max": 14
+        },
+        "stats": {
+            "stats": {
+                "STR": 10
+            }
+        },
+        "restrictions": {
+            "level": -1,
+            "stats": {
+                "STR": 40,
+                "VIT": 35
+            }
+        },
+        "effects": [
+            "Increases the strength of the users by +10."
+        ],
+        "copper": 15
+    },
+    "5" : {
+        "name": "fox meat",
+        "desc": "Can be used to as an ingredient for food.",
+        "type": "food ingredient",
+
+        "stats": {
+            "hp": 50,
+            "VIT": 50
+        },
+        "restrictions": {
+            "level": -1,
+            "none" : "true"
+        },
+        "effects": [
+            "Satisfies Hunger.",
+            "Restore's health & vitality by 50"
+        ],
+        "copper": 12
+    },
+    "6" : {
+        "name": "rabbit meat",
+        "desc": "Can be used to as an ingredient for food.",
+        "type": "food ingredient",
+        "stats": {
+            "hp": 40,
+            "VIT": 40
+        },
+        "restrictions": {
+            "level": -1,
+            "none" : "true"
+        },
+        "effects": [
+            "Satisfies Hunger.",
+            "Restore's health & vitality by 40"
+        ],
+        "copper": 6
+    },
+    "7": {
+        "name": "horns",
+        "desc": "Horn of a wild animal.",
+        "type": "raw",
+        "durability": [
+            15,
+            21
+        ],
+        "stats": {},
+        "restrictions": {
+            "level": -1,
+            "none" : "true"
+        },
+        "effects": [
+            "Can be used to create weapons."
+        ],
+        "copper": 20
+    },
+    "8" : {
+        "name": "boar meat",
+        "desc": "Can be used to as an ingredient for food.",
+        "type": "food ingredient",
+        "stats": {
+            "hp": 60,
+            "VIT": 60
+        },
+        "restrictions": {
+            "level": -1,
+            "none" : "true"
+        },
+        "effects": [
+            "Satisfies Hunger.",
+            "Restore's health & vitality by 60"
+        ],
+        "copper": 10
+    },
+    "9": {
+        "name": "Iron Sword",
+        "desc": "A Sword of Iron. This widely-used long sword is better than basic type weapons that are available in a blacksmith’s workshop.",
+        "type": "Weapon",
+        "durability": [
+            70,
+            70
+        ],
+        "damage": {
+            "min": 16,
+            "max": 22
+        },
+        "stats": {
+            "stats": {
+                "attack": 20,
+                "STR": 16
+            }
+        },
+        "restrictions": {
+            "level": -1,
+            "stats": {
+                "STR": 40,
+                "VIT": 35
+            }
+        },
+        "effects": [
+            "Increases the strength of the users by +16.",
+            "Increases the attack of the users by +20."
+        ],
+        "copper": 20,
+        "buyable": "true"
+    },
+    "10": {
+        "name": "Archer's Bow",
+        "desc": "A Bow made using wood. This widely-used bow is used by archer's.",
+        "type": "Weapon",
+        "durability": [
+            70,
+            70
+        ],
+        "damage": {
+            "min": 16,
+            "max": 25
+        },
+        "stats": {
+            "stats": {
+                "attack": 15,
+                "STR": 10,
+                "AGI": 10
+            }
+        },
+        "restrictions": {
+            "level": -1,
+            "stats": {
+                "STR": 40,
+                "VIT": 35
+            }
+        },
+        "effects": [
+            "Increases the strength and agility of the users by +10.",
+            "Increases the attack of the users by +15."
+        ],
+        "copper": 15,
+        "buyable": "true"
+    }
+}

@@ -1,0 +1,161 @@
+{
+    "171656085738881024": {
+        "items": {
+            "1": {
+                "name": "Health Potion",
+                "quantity": 2
+            },
+            "2": {
+                "name": "Barley Bread",
+                "quantity": 12
+            },
+            "3": {
+                "name": "Wooden Sword",
+                "quantity": 1
+            }
+        },
+        "equip": [
+            "3"
+        ],
+        "race": "Human",
+        "hp": 100,
+        "maxhp": 100,
+        "mp": 100,
+        "maxmp": 100,
+        "level": 1,
+        "xp": 0,
+        "copper": 0,
+        "silver": 200,
+        "gold": 0,
+        "kills": 0,
+        "deaths": 0,
+        "weapon": "2",
+        "stats": {
+            "STR": 10,
+            "VIT": 10,
+            "AGI": 10,
+            "INT": 10,
+            "WIS": 10,
+            "luck": 10,
+            "attack": 10,
+            "defense": 10,
+            "fame": 0,
+            "infamy": 0,
+            "charisma": 0,
+            "leadership": 0
+        },
+        "HPregain": 0.033,
+        "MPregain": 0.033,
+        "area": "training center",
+        "tstamp": 1462459362,
+        "pvp": false,
+        "name": "Weed",
+        "guild": ""
+    },
+    "127583545823723521": {
+        "items": {
+            "1": {
+                "name": "Health Potion",
+                "quantity": 2
+            },
+            "2": {
+                "name": "Barley Bread",
+                "quantity": 10
+            },
+            "3": {
+                "name": "Wooden Sword",
+                "quantity": 1
+            }
+        },
+        "equip": [
+            "3"
+        ],
+        "race": "Human",
+        "hp": 100,
+        "maxhp": 100,
+        "mp": 100,
+        "maxmp": 100,
+        "level": 1,
+        "xp": 0,
+        "copper": 10,
+        "silver": 0,
+        "gold": 0,
+        "kills": 0,
+        "deaths": 0,
+        "weapon": "2",
+        "stats": {
+            "STR": 10,
+            "VIT": 10,
+            "AGI": 10,
+            "INT": 10,
+            "WIS": 10,
+            "luck": 10,
+            "attack": 10,
+            "defense": 10,
+            "fame": 0,
+            "infamy": 0,
+            "charisma": 0,
+            "leadership": 0
+        },
+        "HPregain": 0.033,
+        "MPregain": 0.033,
+        "area": "training center",
+        "tstamp": 1462435847,
+        "pvp": false,
+        "name": "Trihexia",
+        "guild": ""
+    },
+    "96611780318474240": {
+        "items": {
+            "1": {
+                "name": "Health Potion",
+                "quantity": 2
+            },
+            "2": {
+                "name": "Barley Bread",
+                "quantity": 11
+            },
+            "3": {
+                "name": "Wooden Sword",
+                "quantity": 1
+            }
+        },
+        "equip": [
+            "3"
+        ],
+        "race": "Dwarf",
+        "hp": 100,
+        "maxhp": 100,
+        "mp": 100,
+        "maxmp": 100,
+        "level": 1,
+        "xp": 0,
+        "copper": 0,
+        "silver": 0,
+        "gold": 0,
+        "kills": 0,
+        "deaths": 0,
+        "weapon": "2",
+        "stats": {
+            "STR": 8,
+            "VIT": 6,
+            "AGI": 6,
+            "INT": 13,
+            "WIS": 13,
+            "luck": 10,
+            "attack": 7,
+            "defense": 7,
+            "fame": 0,
+            "infamy": 0,
+            "charisma": 0,
+            "leadership": 0
+        },
+        "HPregain": 0.033,
+        "MPregain": 0.033,
+        "area": "training center",
+        "tstamp": 1462459529,
+        "pvp": false,
+        "name": "Dweller2000",
+        "guild": ""
+    }
+}

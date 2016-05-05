@@ -1,0 +1,183 @@
+{
+    "1": {
+        "name": "rat",
+        "level": 1,
+        "stats": {
+            "hp": 40,
+            "maxhp": 40,
+            "STR": 3,
+            "VIT": 15,
+            "AGI": 20,
+            "INT": 1,
+            "WIS": 1,
+            "luck": 1,
+            "attack": 4,
+            "defense": 0
+        },
+        "xp": 10,
+        "copper": 2,
+        "drops": ["2"]
+    },
+    "2": {
+        "name": "rabbit",
+        "level": 2,
+        "stats": {
+            "hp": 60,
+            "maxhp": 60,
+            "STR": 7,
+            "VIT": 15,
+            "AGI": 30,
+            "INT": 3,
+            "WIS": 3,
+            "luck": 4,
+            "attack": 7,
+            "defense": 2
+        },
+        "xp": 15,
+        "copper": 3,
+        "drops": ["2", "6"]
+    },
+    "3": {
+        "name": "deer",
+        "level": 3,
+        "stats": {
+            "hp": 100,
+            "maxhp": 100,
+            "STR": 25,
+            "VIT": 35,
+            "AGI": 40,
+            "INT": 3,
+            "WIS": 3,
+            "luck": 4,
+            "attack": 25,
+            "defense": 8
+        },
+        "xp": 20,
+        "copper": 5,
+        "sliver": 1,
+        "drops": ["2", "7"]
+    },
+    "4": {
+        "name": "fox",
+        "level": 5,
+        "stats": {
+            "hp": 150,
+            "maxhp": 150,
+            "STR": 35,
+            "VIT": 35,
+            "AGI": 40,
+            "INT": 3,
+            "WIS": 3,
+            "luck": 4,
+            "attack": 30,
+            "defense": 5
+        },
+        "xp": 30,
+        "copper": 7,
+        "sliver": 3,
+        "drops": ["1", "5"]
+
+    },
+    "5": {
+        "name": "boar",
+        "level": 6,
+        "stats": {
+            "hp": 200,
+            "maxhp": 200,
+            "STR": 35,
+            "VIT": 35,
+            "AGI": 40,
+            "INT": 3,
+            "WIS": 3,
+            "luck": 4,
+            "attack": 30,
+            "defense": 5
+        },
+        "xp": 35,
+        "copper": 10,
+        "sliver": 3,
+        "drops": ["1", "10", "9"]
+    },
+    "6": {
+        "name": "bear",
+        "level": 7,
+        "stats": {
+            "hp": 350,
+            "maxhp": 350,
+            "STR": 45,
+            "VIT": 45,
+            "AGI": 40,
+            "INT": 3,
+            "WIS": 3,
+            "luck": 4,
+            "attack": 40,
+            "defense": 10
+        },
+        "xp": 50,
+        "copper": 10,
+        "sliver": 4,
+        "drops": ["1", "2", "9", "10"]
+    },
+    "7": {
+        "name": "wolf",
+        "level": 11,
+        "stats": {
+            "hp": 650,
+            "maxhp": 650,
+            "STR": 60,
+            "VIT": 65,
+            "AGI": 40,
+            "INT": 4,
+            "WIS": 4,
+            "luck": 4,
+            "attack": 55,
+            "defense": 25
+        },
+        "xp": 130,
+        "copper": 12,
+        "sliver": 7,
+        "drops": ["1", "9", "10"]
+    },
+    "8": {
+        "name": "Lion",
+        "level": 20,
+        "stats": {
+            "hp": 1550,
+            "maxhp": 1550,
+            "STR": 90,
+            "VIT": 95,
+            "AGI": 50,
+            "INT": 6,
+            "WIS": 6,
+            "luck": 8,
+            "attack": 110,
+            "defense": 65
+        },
+        "xp": 270,
+        "copper": 50,
+        "sliver": 20,
+        "gold": 5,
+        "drops": ["9", "10"]
+    },
+    "9": {
+        "name": "Universe",
+        "level": 99,
+        "stats": {
+            "hp": 10000,
+            "maxhp": 10000,
+            "STR": 999,
+            "VIT": 999,
+            "AGI": 999,
+            "INT": 999,
+            "WIS": 999,
+            "luck": 999,
+            "attack": 999,
+            "defense": 10
+        },
+        "xp": 9999,
+        "copper": 9999,
+        "sliver": 9999,
+        "gold": 9999,
+        "drops": ["9", "10"]
+    }
+}

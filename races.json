@@ -1,0 +1,180 @@
+{
+  "1": {
+      "name": "Human",
+      "category": "Main",
+      "desc": "The most culturally progressive and technologically advanced. Though they had the second shortness life span, they were able to conquer most of the continent and build cities, castles fortresses. The wealth of their cities are enormous making them the dominant races in the Versailles Continent.",
+      "characteristic": "No special benefits or penalties.",
+      "stats": {
+        "health": 100,
+        "mana": 100,
+        "STR": 10,
+        "VIT": 10,
+        "AGI": 10,
+        "INT": 10,
+        "WIS": 10,
+        "luck": 10,
+        "attack": 10,
+        "defense": 10
+      },
+      "levelUp": {}
+    },
+  "2": {
+      "name": "Dwarf",
+      "category": "Main",
+      "desc": "Dwarves characterized by short but sturdy body build. These people are masters of craftsmanship, most of them live in human cities living the life of artisans, merchants and builders. Their strength and creativity are the most notable among the races ever since the known history.",
+      "characteristic": "Height capped at 90 cm, +1 vitality per level, +1 wisdom per 2 levels.",
+      "stats": {
+        "health": 100,
+        "mana": 100,
+        "STR": 8,
+        "VIT": 6,
+        "AGI": 6,
+        "INT": 13,
+        "WIS": 13,
+        "luck": 10,
+        "attack": 7,
+        "defense": 7
+      },
+      "levelUp": {
+        "VIT": 1,
+        "WIS": 0.5
+      }
+    },
+  "3": {
+      "name": "Elf",
+      "category": "Main",
+      "desc": "Masters of nature and magic. Even though they can live for several hundreds of years, the birth rate was lowest compared to the other races. These made them noble hermits in deep forests and secluded land. Because of their high affinity in nature, elemental magic is easily learned.",
+      "characteristic": "+1 int per 2 level, +1 wisdom per level, +1 agility per level.",
+      "stats": {
+        "health": 90,
+        "mana": 100,
+        "STR": 6,
+        "VIT": 9,
+        "AGI": 15,
+        "INT": 12,
+        "WIS": 12,
+        "luck": 12,
+        "attack": 10,
+        "defense": 8
+      },
+      "levelUp": {
+        "INT": 0.5,
+        "WIS": 1,
+        "AGI": 1
+      }
+    },
+  "4": {
+      "name": "Orc",
+      "category": "Main",
+      "desc": "Brute force is the law. Only the strongest orc survive and will lead the horde. Life is cruel and short for every orc. There is no concrete culture, education, however, they survived the harsh world because of the high birth rate that is highest among other races, even monsters birth rate are incomparable to those of orcs.",
+      "characteristic": "+5 HP per level, + 1 strength per level.",
+      "stats": {
+        "health": 100,
+        "mana": 100,
+        "STR": 15,
+        "VIT": 12,
+        "AGI": 9,
+        "INT": 6,
+        "WIS": 10,
+        "luck": 10,
+        "attack": 15,
+        "defense": 13
+      },
+      "levelUp": {
+        "health": 5,
+        "STR": 1
+      }
+    },
+  "5": {
+      "name": "Hobbit",
+      "category": "Main",
+      "desc": "Mostly merchants and farmers living on edges of forest and mountains. They live peacefully near settlements of human and elves.",
+      "characteristic": "+1 Vitality per level, -5% intelligence, -5% wisdom, +2 luck per level.",
+      "stats": {
+        "health": 100,
+        "mana": 100,
+        "STR": 8,
+        "VIT": 9,
+        "AGI": 10,
+        "INT": 9,
+        "WIS": 9,
+        "luck": 15,
+        "attack": 9,
+        "defense": 9
+      },
+      "levelUp": {
+        "health": 5,
+        "VIT": 1,
+        "luck": 2
+      }
+    },
+  "6": {
+      "name": "Dark-elf",
+      "category": "Sub Races",
+      "desc": "Those elves that abandon the nature and mastered the dark arts and magic were exiled from Elven territories. These race is characterized by the darker skin and purple eyes unlike the Elves which is either greenish or light-bluish.",
+      "characteristic": "+2 wisdom per level.",
+      "stats": {
+        "health": 90,
+        "mana": 100,
+        "STR": 6,
+        "VIT": 8,
+        "AGI": 15,
+        "INT": 12,
+        "WIS": 10,
+        "luck": 12,
+        "attack": 11,
+        "defense": 8
+      },
+      "levelUp": {
+        "INT": 0.5,
+        "WIS": 2,
+        "AGI": 1
+      }
+    },
+  "7": {
+      "name": "Half-elf",
+      "category": "Sub Races",
+      "desc": "Human race were quite fond of beautiful things to the point that some of them fall married some elf. half blood were differently treated. Some Elven territories despised those half-blood, however most human accepted them wholeheartedly.",
+      "characteristic": "+1 Intelligence per level.",
+      "stats": {
+        "health": 90,
+        "mana": 100,
+        "STR": 7,
+        "VIT": 10,
+        "AGI": 13,
+        "INT": 11,
+        "WIS": 11,
+        "luck": 12,
+        "attack": 11,
+        "defense": 9
+      },
+      "levelUp": {
+        "INT": 1,
+        "WIS": 1,
+        "AGI": 1
+      }
+    },
+  "8": {
+      "name": "Beastman",
+      "category": "Sub Races",
+      "desc": "They varies from land, avian and aquatic beast up to this date, there are more things to know about the origin of this people. Though they have intimidating appearance, they act more civilized than some other races. Villages where this people lived are peaceful. They have distinctive abilities that varies from clan to clan.",
+      "characteristic": "+2 agility per level.",
+      "stats": {
+        "health": 100,
+        "mana": 100,
+        "STR": 12,
+        "VIT": 11,
+        "AGI": 11,
+        "INT": 9,
+        "WIS": 9,
+        "luck": 10,
+        "attack": 13,
+        "defense": 13
+      },
+      "levelUp": {
+        "health": 5,
+        "STR": 1,
+        "AGI": 2
+      }
+    }
+}

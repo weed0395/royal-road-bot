@@ -1,0 +1,75 @@
+{
+    "1": {
+        "name": "Rosenheim Kingdom",
+        "locations": {
+            "city": {
+                "merchant's shop": "",
+                "blacksmith's shop": "",
+                "Library": "",
+                "church": "",
+                "training center": ""
+            },
+            "grass land": {
+                "level": "1 - 5",
+                "1":{
+                    "name": "rat",
+                    "level": 2,
+                    "occurence": 90
+                },
+                "2":{
+                    "name": "rabbit",
+                    "level": 2,
+                    "occurence": 70
+                },
+                "3":{
+                    "name": "deer",
+                    "level": 3,
+                    "occurence": 70
+                },
+                "4":{
+                    "name": "fox",
+                    "level": 5,
+                    "occurence": 60
+                }
+            },
+            "forest": {
+                "level": "2 - 20",
+                "2":{
+                    "name": "rabbit",
+                    "level": 2,
+                    "occurence": 80
+                },
+                "3":{
+                    "name": "deer",
+                    "level": 3,
+                    "occurence": 60
+                },
+                "4":{
+                    "name": "fox",
+                    "level": 5,
+                    "occurence": 80
+                },
+                "5":{
+                    "name": "boar",
+                    "level": 6,
+                    "occurence": 60
+                },
+                "6":{
+                    "name": "bear",
+                    "level": 7,
+                    "occurence": 50
+                },
+                "7": {
+                    "name": "wolf",
+                    "level": 11,
+                    "occurence": 40
+                },
+                "8": {
+                    "name": "Loin",
+                    "level": 20,
+                    "occurence": 10
+                }
+            }
+        }
+    }
+}
