@@ -8,6 +8,13 @@ const fs = require("fs");
 const Discord = require("discord.js");
 const mybot = new Discord.Client();
 
+try { 
+	const auth = require("../auth.json");
+} catch (e) { 
+	console.log("Create an auth.json like auth.json.example.\n"+e.stack);
+	process.exit();
+}
+
 function toTitleCase(str) {
     return str.replace(/\w\S*/g, function(txt) {
         return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
@@ -872,7 +879,7 @@ function rInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-mybot.loginWithToken("Your Token.......");
+mybot.loginWithToken(auth.discordToken);
 
 console.dir("Bot running......");
 
