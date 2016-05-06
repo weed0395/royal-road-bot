@@ -11,7 +11,10 @@
     "url": "git+https://github.com/weed0395/royal-road-bot.git"
   },
   "license": "Apache-2.0",
-  "dependencies": {"discord.js": "<=5.3.x"},
+  "dependencies": {
+    "discord.js": ">=7.0.1",
+    "mongodb": "*"
+  },
   "keywords": [
     "moonlight",
     "sculptor",
