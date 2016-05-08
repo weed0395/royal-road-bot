@@ -1,0 +1,4 @@
+{
+	"_comment": "Create a copy of this file, name it as auth.json, and place it 1 folder above the root directory. Passwords and tokens should not be placed in a directory shared by git.",
+	"discordToken" : "https://discordapp.com/developers/applications/me"
+}
